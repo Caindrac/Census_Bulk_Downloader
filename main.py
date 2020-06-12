@@ -39,7 +39,6 @@ class SF1_Downloader(AbstractDownloader):
             for table_name in self.table_names:
                 for summary_level in self.summary_levels:
                     for fip in self.fips_list:
-                        # self.download_table(fip=fip, table_name=table_name, summary_level=summary_level)
                         worker.submit(self.download_table, fip, table_name, summary_level)
 
     def download_table(self, fip: int, table_name: str, summary_level: str):
