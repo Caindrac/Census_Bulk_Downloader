@@ -8,7 +8,7 @@ from typing import List
 
 
 """ 
-This tool allows the the user to download all the data fro a given summary level. These files will be download as csv files for each state and
+This tool allows the the user to download all the data from a given summary level. These files will be download as csv files for each state and
 table your provide. This data is being buld downloaded from http://census.ire.org/data/bulkdata.html
 """
 
